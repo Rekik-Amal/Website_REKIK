@@ -1,0 +1,155 @@
+/*-- scss:defaults --*/
+
+// Base Colors
+$white:         #ffffff;
+$blue-lightest: #e0f7fa;
+$blue-lighter:  #b3e5fc;
+$blue-light:    #81d4fa;
+$blue:          #4fc3f7;
+$blue-dark:     #0288d1;
+$blue-darker:   #01579b;
+$gray-light:    #f9f9f9;
+$gray-dark:     #212121;
+$black:         #000000;
+$blue-darkest:  #001f3f;
+
+
+// Base document colors
+$navbar-bg: $blue-dark;
+$navbar-fg: $white;
+$link-color: $blue-dark;
+$link-hover-color: $blue-light;
+
+// Inline code
+$code-bg: $blue-lightest;
+$code-color: $blue-darker;
+
+// Code blocks
+$code-block-bg: $blue-lightest;
+
+/*-- scss:rules --*/
+
+// Hyperlinks 
+a {
+    color: $link-color;
+}
+a:hover {
+    color: $link-hover-color;
+}
+
+// Headers
+h1, h2, h3 {
+    color: $blue-dark;
+}
+h4, h5, h6 {
+    color: $blue;
+}
+
+// Navbar
+.navbar-nav.navbar-nav-scroll.ms-auto {
+    flex-direction: row;
+}
+
+// Footer
+.nav-footer {
+    background-color: $gray-light;
+    color: $blue-dark;
+}
+.nav-footer a {
+    color: $blue-dark;
+}
+.nav-footer a:hover {
+    color: $blue-light;
+}
+
+// Back to Top button
+#myBtn {
+    background-color: rgba(2, 136, 209, 0.75); /* $blue-dark */
+    color: $white;
+}
+#myBtn:hover {
+    background-color: rgba(2, 136, 209, 1);
+    text-decoration: underline white;
+}
+
+// Cookies
+/* Adaptation avec vos couleurs */
+
+// Cookie Header
+
+/// Header Background
+.termsfeed-com---palette-light .cc-pc-head {
+    background-color: $blue-dark; /* Utilisation du bleu sombre */
+    color: $white; /* Texte en blanc */
+}
+
+/// Header Title Text
+.termsfeed-com---palette-light .cc-pc-head-title-headline {
+    color: $white; /* Texte blanc */
+}
+
+/// Header Language Select Text
+.termsfeed-com---palette-light .cc-pc-head-lang select {
+    background-color: $blue-light; /* Bleu clair */
+    color: $blue-dark; /* Texte bleu sombre */
+}
+
+.termsfeed-com---palette-light .cc-pc-head-close {
+    color: $white; /* Bouton de fermeture en blanc */
+}
+
+// Cookie Sidebar
+
+/// Unselected Options
+.cc-cp-body .cc-cp-body-tabs-item-link, 
+.cc-cp-body .cc-cp-body-tabs {
+    background-color: $blue-lighter; /* Bleu plus clair */
+    color: $blue-darker; /* Texte bleu plus sombre */
+}
+
+/// Selected Options
+.termsfeed-com---palette-light .cc-cp-body-tabs-item[active=true] button {
+    background-color: $blue-dark; /* Bleu sombre */
+    color: $white; /* Texte en blanc */
+}
+
+// Cookie Body
+
+/// Content Body Background
+.termsfeed-com---palette-light .cc-cp-body-content-entry {
+    background-color: $blue-lightest; /* Bleu très clair */
+    color: $blue-darker; /* Texte bleu sombre */
+}
+
+/// Content Body Text
+.termsfeed-com---palette-light .cc-cp-body-content-entry-title, 
+.termsfeed-com---palette-light .cc-cp-body-content-entry-text {
+    color: $blue-darker; /* Texte bleu sombre */
+}
+
+/// Activation Buttons
+.termsfeed-com---pc-dialog input[type=checkbox].cc-custom-checkbox:checked+label:before {
+    background: $blue; /* Bleu principal */
+}
+
+// Cookie Footer
+
+/// Footer Background
+.termsfeed-com---palette-light .cc-cp-foot {
+    background-color: $blue-dark; /* Bleu sombre */
+    color: $white; /* Texte en blanc */
+}
+
+/// Footer Text
+.termsfeed-com---palette-light .cc-cp-foot-byline {
+    color: $white; /* Texte blanc */
+}
+
+/// Preference button
+.termsfeed-com---palette-light .cc-nb-okagree, 
+.termsfeed-com---palette-light .cc-nb-reject, 
+.termsfeed-com---palette-light .cc-cp-foot-save {
+    background-color: $blue-dark; /* Bleu sombre */
+    border-radius: 6px; /* Coins arrondis */
+    color: $white; /* Texte blanc */
+}

@@ -1,0 +1,219 @@
+/* Styles globaux */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* En-tête de la bannière */
+.title-block-banner {
+  background-color: #0056b3; /* Bleu charismatique */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+
+
+.title-block-banner h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title-block-banner p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* Styles pour les sections */
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  color: #333; /* Couleur sombre pour les titres */
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Styles pour les cartes */
+.card-bordered {
+  border: 2px solid #007bff; /* Bleu assorti */
+  border-radius: 8px; /* Coins arrondis */
+  padding: 20px;
+  margin: 20px 0; /* Espacement vertical */
+  background-color: #f9f9f9; /* Couleur de fond douce */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Style pour le texte dans les cartes */
+.card-bordered p {
+  margin: 0; /* Supprime les marges internes inutiles */
+  color: #333; /* Texte en gris foncé pour une meilleure lisibilité */
+}
+
+
+/* Style pour les listes avec icônes */
+.card-bordered ul li::before {
+  content: "•"; /* Point pour la liste */
+  color: #007bff; /* Bleu charismatique */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Style pour les conclusions */
+.card-centered {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #eaf4fc; /* Bleu doux */
+  text-align: left;
+  margin: 20px 0;
+}
+
+.card-centered ul li::before {
+  content: "⮞"; /* Icône de style pour les conclusions */
+  color: #0056b3;
+  margin-right: 8px;
+}
+
+/* Bouton pour le rapport */
+.btn-download {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Méthodologie - Accordéon */
+.accordion button {
+  background-color: #007bff; /* Bleu charismatique */
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion button:hover {
+  background-color: #0056b3;
+}
+
+.accordion button.active {
+  background-color: #004494; /* Bleu plus sombre pour l'état actif */
+}
+
+.accordion .panel {
+  padding: 15px;
+  display: none;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: -10px;
+}
+
+.accordion .panel.open {
+  display: block;
+}
+
+/* Effet hover sur les sections */
+section:hover {
+  background-color: #f4f9ff; /* Légère surbrillance */
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+/* Section Coming Soon */
+.coming-soon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #fff3e0; /* Fond orange pâle */
+  border: 2px solid #ff9800;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre pour l'effet de panneau */
+}
+
+.coming-soon-container {
+  text-align: center;
+  max-width: 600px;
+}
+
+.coming-soon-panel {
+  background-color: #ff9800; /* Couleur principale orange */
+  color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.coming-soon-panel h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  animation: pulse 2s infinite; /* Effet de "pulse" sur le titre */
+}
+
+.coming-soon-panel p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.coming-soon-footer {
+  font-size: 1rem;
+  color: #fff3e0; /* Couleur orange pâle */
+}
+
+/* Animation Pulse pour le titre */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Effet hover */
+.coming-soon-panel:hover {
+  background-color: #e57e00; /* Orange plus foncé */
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}

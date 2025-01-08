@@ -1,0 +1,118 @@
+/* Container général de la timeline */
+.timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Ligne verticale */
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40px; /* Position de la ligne verticale */
+  width: 2px;
+  background-color: #1e88e5; /* Couleur de la ligne verticale */
+}
+
+/* Élément de chaque événement de la timeline */
+.timeline-event {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/* Point circulaire coloré pour chaque événement, collé à la ligne verticale */
+.timeline-point {
+  position: absolute;
+  left: 33px; /* Ajustement pour coller le point à la ligne */
+  width: 20px; /* Taille augmentée du point */
+  height: 20px;
+  background-color: #1e88e5; /* Couleur par défaut */
+  border-radius: 50%;
+  border: 4px solid white; /* Bordure légèrement plus épaisse */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Ombre pour un effet stylé */
+}
+
+/* Contenu de chaque carte */
+.timeline-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-left: 80px; /* Ajuster cette valeur pour positionner la carte par rapport à la ligne verticale */
+  border-left: 6px solid transparent; /* Par défaut, la bordure est transparente */
+}
+
+/* Couleurs personnalisées pour les bordures latérales et les points */
+.bg_2 .timeline-content {
+  border-left-color: #B39DDB; /* Lavande pastel */
+}
+
+.bg_3 .timeline-content {
+  border-left-color: #FFCCBC; /* Pêche clair */
+}
+
+.bg_4 .timeline-content {
+  border-left-color: #A5D6A7; /* Vert menthe doux */
+}
+
+/* Couleurs pour les points correspondants */
+.bg_2 .timeline-point {
+  background-color: #B39DDB; /* Lavande pastel */
+}
+
+.bg_3 .timeline-point {
+  background-color: #FFCCBC; /* Pêche clair */
+}
+
+.bg_4 .timeline-point {
+  background-color: #A5D6A7; /* Vert menthe doux */
+}
+
+
+/* Style pour les icônes dans la carte */
+.timeline-content i {
+  color: #1e88e5;
+  margin-right: 10px;
+}
+
+/* Effet hover */
+.timeline-content:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.highlight-gold {
+    color: #d4af37; /* Couleur dorée */
+    font-weight: bold;
+}
+
+
+/* Texte général en mode clair */
+body {
+    color: #212121; /* Texte sombre sur fond clair */
+}
+
+/* Texte général en mode sombre */
+body.dark-mode {
+    color: #e0e0e0; /* Texte clair sur fond sombre */
+}
+
+/* Texte des paragraphes */
+.timeline-content p {
+    color: inherit; /* Hérite de la couleur du body */
+}
+
+/* Titres et icônes en mode clair */
+.timeline-content h3, .timeline-content i {
+    color: #1e88e5; /* Bleu en mode clair */
+}
+
+/* Titres et icônes en mode sombre */
+body.dark-mode .timeline-content h3,
+body.dark-mode .timeline-content i {
+    color: #81d4fa; /* Bleu clair en mode sombre */
+}

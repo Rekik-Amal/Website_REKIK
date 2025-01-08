@@ -1,0 +1,106 @@
+/* Styles pour le titre */
+.site-title {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1em;
+  color: #1e88e5; /* Bleu classique pour le titre */
+  text-align: center; /* Centrer le nom */
+  margin-bottom: 0.5rem; /* Petit espacement avec les icônes */
+}
+
+/* Styles pour les icônes des réseaux sociaux */
+.social-icon-links {
+  display: flex;
+  justify-content: center; /* Centrer les icônes sous le nom */
+  margin-top: 0.5rem;
+}
+
+.social-icon-links a {
+  margin: 0 10px;
+  color: #1e88e5; /* Couleur bleu pour les icônes */
+  transition: color 0.3s ease;
+}
+
+.social-icon-links a:hover {
+  color: #0d47a1; /* Changement de couleur au survol */
+}
+
+/* Style pour le texte de description */
+.site-intro-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333; /* Couleur texte */
+  max-width: 600px;
+  margin-top: 1em;
+  text-align: left; /* Alignement du texte à gauche */
+}
+
+.site-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; /* Ajoute une hauteur à l'ensemble du conteneur */
+}
+
+.site-intro {
+  flex: 1;
+  margin-right: 20px; /* Espace entre le texte et la lettre "R" */
+}
+
+.site-logo {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%; /* Utilise tout l'espace vertical disponible */
+}
+
+.site-logo svg {
+  width: 100%; /* La lettre "R" occupe toute la largeur */
+  height: 100%; /* La lettre "R" occupe toute la hauteur */
+}
+
+/* Animation pour les lettres "R" et "A" */
+#letter-R, #letter-A {
+  stroke-dasharray: 1000;  /* Ajustez la valeur pour correspondre à la longueur du chemin */
+  stroke-dashoffset: 1000;
+  animation: draw 4s ease forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .site-hero {
+    flex-direction: column;
+  }
+
+  .site-logo {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .site-logo svg {
+    max-width: 200px;
+  }
+}
+
+/* Animation pour l'icône d'enveloppe/plume qui "vole" */
+.flying-icon {
+  animation: fly 2s infinite ease-in-out;
+}
+
+@keyframes fly {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

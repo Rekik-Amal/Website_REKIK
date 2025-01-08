@@ -1,0 +1,136 @@
+/* Styles globaux */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sections principales */
+section {
+  margin: 30px 0;
+  padding: 0 20px;
+}
+
+section h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Cartes avec bordures */
+.card-bordered {
+  border: 2px solid #007bff; /* Bleu charismatique */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0; /* Espacement entre les cartes */
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.card-bordered p {
+  margin: 0;
+  color: #333;
+}
+
+.card-bordered ul {
+  margin: 10px 0 0 20px;
+}
+
+.card-bordered li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Objectifs */
+.objectives {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.objectives li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.objectives i {
+  color: #007bff;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+/* Bouton "En savoir plus" */
+.btn-download {
+  display: block;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  margin: 20px auto;
+  text-decoration: none;
+  border-radius: 8px;
+  width: 50%;
+  font-size: 1rem;
+}
+
+.btn-download:hover {
+  background-color: #0056b3;
+}
+
+/* Effet hover sur les sections */
+section:hover {
+  background-color: #f4f9ff; /* Légère surbrillance */
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+.objectives-badges {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #007bff; /* Couleur de la bordure */
+  border-radius: 50px; /* Forme arrondie */
+  padding: 10px 20px; /* Espace interne ajusté */
+  background-color: #f0f8ff; /* Fond doux */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: auto; /* Ajuste automatiquement à la largeur du contenu */
+  min-width: 200px; /* Largeur minimale pour éviter les débordements */
+}
+
+.badge p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  text-align: center; /* Centrer le texte */
+  word-wrap: break-word; /* Coupe les mots longs */
+}
+/* Styles pour la section des métadonnées */
+.metadata {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.8; /* Espacement vertical entre les lignes */
+}
+
+.metadata p {
+  margin: 5px 0; /* Espacement vertical entre les paragraphes */
+  color: #555; /* Couleur par défaut du texte */
+}
+
+.metadata strong {
+  color: #6a0dad; /* Violet pour "Auteur" et "En collaboration avec" */
+  font-weight: bold;
+  display: inline-block;
+  width: 200px; /* Largeur fixe pour aligner les titres */
+}

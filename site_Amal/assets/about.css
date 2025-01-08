@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap'); /* Import de la police Raleway */
+
+/* title and subtitle */
+#title-block-header {
+  margin-bottom: 0px;
+}
+
+/* Sous-titre avec une police et couleur personnalisées */
+.about-links.subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3em !important; /* Augmente la taille du texte */
+  font-weight: 700; /* Plus de poids pour le texte */
+  color: #0277bd !important; /* Bleu foncé pour les sous-titres */
+  transition: color 0.3s ease-in-out; /* Transition douce pour le survol */
+}
+
+/* Effet de survol du sous-titre */
+.about-links.subtitle:hover {
+  text-decoration: underline;
+  color: #01579b !important; /* Bleu encore plus foncé au survol */
+}
+
+/* social links: block of links */
+.about-entity .about-links {
+  justify-content: center !important;
+  column-gap: 1em !important; /* Espacement plus grand entre les liens */
+  font-size: 1.2em !important;
+}
+
+/* social links: individual links */
+.about-entity .about-link {
+  padding: 0.25em 0.25em !important;
+  border: none !important;
+  font-family: "Raleway", sans-serif; /* Appliquer la police pour les liens sociaux */
+  color: #0288d1 !important; /* Bleu pour les liens */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transition douce */
+}
+
+/* social links: hover effect */
+.about-entity .about-link:hover {
+  color: #01579b !important; /* Couleur bleue plus foncée au survol */
+  transform: scale(1.1); /* Lien légèrement agrandi au survol */
+}
+
+/* about area: Ajout d'un arrière-plan bleu clair et espacement */
+.about-entity {
+  background: linear-gradient(to right, #e3f2fd, #bbdefb); /* Dégradé bleu clair */
+  padding: 3em 2em !important;
+  margin: 1em 2em !important; /* Ajout de marges plus grandes */
+  border-radius: 10px; /* Coins arrondis pour un effet plus doux */
+}
+
+/* mobile query for screens up to ~992px wide */
+@media screen and (max-width: 991.98px) {
+  /* wrap lately section */
+  #lately .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* listings */
+  #blog, #talks, #publications, #projects {
+    flex-basis: 40% !important;
+    flex-grow: 1;
+  }
+
+  /* social links: Ajustement pour mobile */
+  .about-entity .about-links {
+    font-size: 1.2em !important;
+    justify-content: center !important; /* Centrage sur mobile */
+  }
+}
+
+/* mobile query for screens up to ~576px wide */
+@media screen and (max-width: 576px) {
+  /* wrap about me section */
+  #about-me .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* wrap lately section */
+  #lately .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* listings: Pleine largeur sur petits écrans */
+  #blog, #talks, #publications, #projects {
+    flex-basis: 100% !important;
+  }
+
+  /* social links: Ajustement pour petits écrans */
+  .about-entity .about-links {
+    font-size: 1em !important;
+    justify-content: center !important; /* Centré sur mobile */
+  }
+
+  /* about area: Retirer la marge pour mobile */
+  .about-entity {
+    margin: 0em 0em 0em 0em;
+  }
+}
+
+/* Ajout d'un effet de transition sur les liens du sous-titre */
+.about-links.subtitle {
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.about-links.subtitle:hover {
+  text-decoration: underline;
+  color: #01579b !important;
+}
+
+/* Ajustement pour les petites résolutions */
+.about-entity .about-link {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.about-entity .about-link:hover {
+  transform: scale(1.1); /* Légère augmentation au survol */
+  color: #01579b !important;
+}
+/* Animation de la main qui salue */
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wave-hand {
+  display: inline-block;
+  transform-origin: 70% 70%; /* Origine du pivot de la main */
+  animation: wave 2s infinite; /* L'animation dure 2s et se répète à l'infini */
+  font-size: 2em; /* Ajuster la taille selon tes besoins */
+}
+/* Style pour l'icône de boule de cristal */
+.crystal-icon {
+  display: inline-block;
+  font-size: 1.5em; /* Taille de l'icône */
+  color: #1e88e5; /* Couleur bleue de l'icône */
+  margin-left: 5px; /* Un petit espace après le texte */
+  animation: rotate-crystal 3s infinite linear; /* Animation de rotation */
+}
+
+/* Animation de rotation autour de l'axe Y (vertical) */
+@keyframes rotate-crystal {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
+
+/* Limiter la largeur maximale des paragraphes pour éviter les débordements */
+.lead {
+  max-width: 800px; /* Ajuste la largeur maximale selon tes préférences */
+  margin: 0 auto;   /* Centrer le texte horizontalement */
+  text-align: justify; /* Justifier le texte pour un rendu uniforme */
+  line-height: 1.6;    /* Améliorer la lisibilité avec un interligne plus grand */
+}
+
+/* Assurer que le texte reste agréable à lire sur les petits écrans */
+@media (max-width: 768px) {
+  .lead {
+    max-width: 90%; /* Réduire la largeur sur les écrans plus petits */
+    font-size: 1.1em; /* Augmenter la taille du texte pour la lisibilité */
+  }
+}
+
+/* Style pour l'icône de boule de cristal */
+.crystal-icon {
+  display: inline-block;
+  font-size: 1.5em;
+  color: #1e88e5;
+  margin-left: 5px;
+  animation: rotate-crystal 3s infinite linear;
+}
+
+@keyframes rotate-crystal {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
+
+/* Suppression des éléments indésirables sous le bouton (si nécessaire) */
+.btn + * {
+  display: none; /* Cache les éléments immédiatement après le bouton */
+}
+
+/* Ajout d'un espace entre le bouton et le séparateur */
+.btn {
+  margin-bottom: 1.5em; /* Ajuste cet espace en fonction de tes besoins */
+}
+
+/* Style pour le séparateur */
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc; /* Couleur grise pour le séparateur */
+  margin: 1.5em 0; /* Espace autour du séparateur */
+}
+
+/* Style pour la section Éducation */
+.education {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.5;
+}

@@ -1,0 +1,92 @@
+/* Styles globaux */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sections */
+section {
+  margin: 30px 0;
+  padding: 0 20px;
+}
+
+section h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Cartes */
+.card-bordered {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-bordered ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.card-bordered li {
+  margin-bottom: 10px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Objectifs (badges) */
+.objectives-badges {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #007bff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: #f0f8ff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  text-align: center;
+}
+
+.badge p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Bouton */
+.btn-download {
+  display: block;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 50%;
+  font-size: 1rem;
+}
+
+.btn-download:hover {
+  background-color: #0056b3;
+}
+.metadata strong {
+  color: #6a0dad; /* Violet pour "Auteur" et "En collaboration avec" */
+  font-weight: bold;
+  display: inline-block;
+  width: 200px; /* Largeur fixe pour aligner les titres */
+}

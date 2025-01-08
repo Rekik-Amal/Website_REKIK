@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+}
+
+/* Conteneur global */
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Deux colonnes : texte et formulaire */
+  gap: 40px;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  align-items: start;
+}
+
+/* Section gauche : Texte */
+.contact-left {
+  padding: 20px;
+}
+
+.contact-left h1 {
+  font-size: 2rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.contact-left .icon-note {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  color: #0056b3;
+}
+
+.contact-left p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.contact-left .icon-heart {
+  color: #ff4d4d;
+}
+
+/* Section droite : Formulaire */
+.contact-right form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-right label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+.contact-right input,
+.contact-right textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-right button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-right button:hover {
+  background-color: #004494;
+}

@@ -1,0 +1,7 @@
+[1,"==> quarto preview --render all --no-watch-inputs --no-browse\n\n"]
+[1,"Rendering:\n"]
+[1,"\r[ 1/11] 404.qmd\n\r[ 2/11] about\\index.qmd\n"]
+[1,"\r[ 3/11] comp\\comp.qmd\n"]
+[1,"\r[ 4/11] contact.qmd\n"]
+[1,"\r[ 5/11] index.qmd\n"]
+[1,"\r[ 6/11] license.qmd\n\r[ 7/11] parcours\\parcours.qmd\n\r[ 8/11] projets\\Boston Crime\\index.qmd\n"]

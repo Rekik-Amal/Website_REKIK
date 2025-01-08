@@ -1,0 +1,103 @@
+---
+title: "Mes Compétences"
+format:
+  html:
+    page-layout: full
+header-includes:
+  - <link rel="stylesheet" href="../assets/skills.css">  # Chemin relatif ajusté
+  - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  - |
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var accHeaders = document.querySelectorAll('.accordion-header');
+        accHeaders.forEach(function(header) {
+          header.addEventListener('click', function() {
+            var parentItem = this.parentElement;
+            parentItem.classList.toggle('active');
+            
+            // Ouvrir ou fermer le contenu en fonction de la classe 'active'
+            var content = this.nextElementSibling;
+            if (parentItem.classList.contains('active')) {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } else {
+              content.style.maxHeight = null;
+            }
+          });
+        });
+      });
+    </script>
+---
+
+```{=html}
+<div class="accordion-container">
+  <!-- Compétences Techniques -->
+  <section class="column column-techniques">
+    <h2>Compétences Techniques</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header"><i class="fas fa-database"></i> Bases de Données</button>
+        <div class="accordion-content">
+          <p>Expertise en gestion de bases SQL/NoSQL, incluant MySQL, PostgreSQL, MongoDB.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header"><i class="fas fa-chart-bar"></i> Visualisation de Données</button>
+        <div class="accordion-content">
+          <p>Maîtrise des outils comme Tableau, Qlikview, et PowerBI pour des visualisations percutantes.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header"><i class="fas fa-code"></i> Langages de Programmation</button>
+        <div class="accordion-content">
+          <p>Python, R, C++, Scala, et Java pour le traitement et l’analyse de données.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header"><i class="fas fa-cogs"></i> Environnement Big Data</button>
+        <div class="accordion-content">
+          <p>Expérience avec Hadoop, Hive, Spark, Kafka et Flink, en local ou dans le cloud.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header"><i class="fas fa-tools"></i> Systèmes d'Exploitation</button>
+        <div class="accordion-content">
+          <p>Maîtrise de Unix, Windows et leur intégration dans les processus d’analyse.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Savoir-Être et Soft Skills -->
+  <section class="column column-soft-skills">
+    <h2>Savoir-Être et Soft-Skills</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header"><i class="fas fa-handshake"></i> Travail en Équipe</button>
+        <div class="accordion-content">
+          <p>Collaboration efficace dans des équipes multidisciplinaires.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header"><i class="fas fa-lightbulb"></i> Curiosité et Innovation</button>
+        <div class="accordion-content">
+          <p>Goût pour l'exploration de nouvelles technologies et leur mise en œuvre dans des solutions innovantes.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header"><i class="fas fa-clock"></i> Gestion du Temps</button>
+        <div class="accordion-content">
+          <p>Capacité à respecter les délais et à organiser efficacement le travail.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header"><i class="fas fa-users"></i> Pédagogie et Communication</button>
+        <div class="accordion-content">
+          <p>Clarté dans l'explication des concepts techniques et pédagogie adaptée à divers publics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+```

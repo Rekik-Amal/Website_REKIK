@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "projets/Projets.html",
+    "href": "projets/Projets.html",
+    "title": "Projects",
+    "section": "",
+    "text": "🚧 Coming Soon!\n      Stay tuned for an exciting new project. I'm working hard to bring you something amazing!\n    \n  \n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n📊 Insertion Professionnelle\n\n\nAnalyse de l’insertion professionnelle des diplômés pour identifier les facteurs influençant l’emploi.\n\n\n\nFeb 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔍 Analyse de la Criminalité à Boston\n\n\nAnalyse des facteurs influençant le taux de criminalité à Boston à l’aide de régressions multiples.\n\n\n\nOct 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🍽️ Classification des Aliments\n\n\nUne étude appliquant des méthodes de clustering pour regrouper des aliments selon leurs caractéristiques nutritionnelles et identifier des parangons.\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "projets/Classification des Aliments/index.html",
+    "href": "projets/Classification des Aliments/index.html",
+    "title": "🍽️ Classification des Aliments",
+    "section": "",
+    "text": "Auteur : Amal Rekik\n  En collaboration avec : MOUHSINI, REMESHA \n\n\n\n\n  Résumé\n  \n    \n      Ce projet explore des méthodes de clustering statistique pour regrouper des aliments en fonction de leurs caractéristiques nutritionnelles. Grâce à des outils comme l'indice de silhouette et les parangons, nous avons mis en lumière les aliments les plus représentatifs de chaque groupe. Une analyse approfondie a permis de valider la qualité des regroupements obtenus.\n    \n  \n\n\n\n\n  Objectifs\n  \n    \n      \n      Identifier des groupes homogènes d'aliments à partir de leurs valeurs nutritionnelles.\n    \n    \n      \n      Évaluer la qualité des clusters à l'aide de l'indice de silhouette.\n    \n    \n      \n      Déterminer les parangons pour chaque cluster.\n    \n  \n\n\n\n\n  Méthodologie\n  \n    \n      Clustering : Regroupement des aliments selon leurs distances euclidiennes.\n      Indice de Silhouette : Calcul et visualisation pour évaluer la qualité des clusters.\n      Parangon : Identification des aliments les plus représentatifs de chaque groupe.\n    \n  \n\n\n\n\n  Résultats Principaux\n  \n    \n      Variables influentes : Calories, protéines, graisses, calcium, fer.\n      Indice moyen de silhouette : \\(s = 0.56\\), confirmant la qualité des regroupements.\n      Parangons identifiés :\n        \n          Cluster 1 : \"Smoked ham\".\n          Cluster 2 : \"Bluefish, baked\".\n          Cluster 3 : \"Sardines, canned\".\n        \n      \n    \n  \n\n\n\n\n  En savoir plus\n  \n    Pour des détails supplémentaires sur les analyses, les résultats et les graphiques, consultez le rapport complet ci-dessous :\n    \n      \n        📥 Consultez le rapport complet\n      \n    \n  \n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "parcours/parcours.html",
+    "href": "parcours/parcours.html",
+    "title": "Mon Parcours Professionnel",
+    "section": "",
+    "text": "Stagiaire Data Engineer / Data Analyst\n       EDF\n       04/2024 -- 10/2024\n       Tours, France\n      \n      \n      Visualisation des Données : Maîtrise de Plotly, Matplotlib, et Seaborn pour transformer des données complexes en visualisations interactives, facilitant les prises de décision.\n\n      Gestion de Bases de Données : Expérience dans l’exploitation des data warehouses d'EDF pour des extractions et analyses rapides, optimisant l'accès aux insights clés.\n\n      Applications pour l’Accès aux Données : Développement d'applications Shiny et Streamlit pour rendre les données accessibles aux non-techniciens, renforçant ainsi l’autonomie des équipes.\n\n      Automatisation des Processus : Réduction du temps d'extraction des données de 21 à 4 minutes grâce à des automatisations en  , permettant de libérer un temps précieux pour l’équipe.\n\n      Rapports Dynamiques : Création de rapports automatisés avec RMarkdown, générés en moins de 2 minutes et adaptés aux besoins spécifiques des utilisateurs.\n\n      Code de Qualité Industrielle : Implémentation de typage statique (mypy), linting et formatage (ruff), et tests unitaires (pytest) pour assurer la robustesse et la lisibilité du code en production.\n    \n  \n\n\n  \n  \n     \n    \n       Stagiaire Data Scientist\n       Laboratoire Nicolas Oresme\n       Avril 2023 – Juillet 2023\n       Caen, France\n      \n      \n      Analyse des données alimentaires pour une classification statistique : Étude approfondie des nutriments dans diverses denrées pour déterminer des groupes homogènes.\n\n      Calcul de l’indice de silhouette : Validation des regroupements réalisés à l’aide de cet indice pour garantir leur robustesse et leur pertinence.\n\n      Représentation graphique des indices de silhouette : Création de visualisations détaillées pour analyser la qualité des clusters obtenus.\n\n      Identification des aliments représentatifs (parangons) : Détermination des éléments les plus représentatifs de chaque cluster pour mieux comprendre leurs caractéristiques.\n\n      Utilisation de SAS : Exploitation du logiciel SAS pour toutes les étapes du traitement et de l’analyse des données.\n    \n  \n\n  \n  \n     \n    \n       Stagiaire Data Analyst\n       Banque Nationale Agricole\n       05/2019 -- 08/2019\n       Tunis, Tunisie\n      \n      \n      Amélioration du Suivi des Performances Financières : Chargé de concevoir un système de suivi des performances pour la Banque Nationale Agricole à Tunis, permettant aux équipes de prendre des décisions plus rapidement et efficacement.\n\n      Création de Tableaux de Bord Dynamiques avec Power BI : Conception de tableaux de bord interactifs dans Power BI pour centraliser les indicateurs clés de performance (KPI).\n\n      Automatisation du Flux de Données avec Power Query : Utilisation de Power Query pour automatiser l'extraction, le nettoyage et la structuration des données.\n\n      Suivi de la Satisfaction Client : Intégration d’indicateurs de satisfaction client, incluant le score de satisfaction et le taux de réclamation.\n    \n  \n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n      Amal Rekik\n    ",
+    "section": "",
+    "text": "Amal Rekik\n    \n    \n    \n      \n        \n      \n      \n        \n      \n      \n        \n      \n    \n    \n    \n      Merci d'être passé(e) ! \n      N'hésitez pas à m'envoyer un message !\n      \n      \n    \n    \n    \n      À propos de moi →\n    \n  \n  \n  \n    \n      \n      \n      \n      \n    \n  \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "comp/comp.html",
+    "href": "comp/comp.html",
+    "title": "Mes Compétences",
+    "section": "",
+    "text": "Compétences Techniques\n    \n      \n         Bases de Données\n        \n          Expertise en gestion de bases SQL/NoSQL, incluant MySQL, PostgreSQL, MongoDB.\n        \n      \n      \n         Visualisation de Données\n        \n          Maîtrise des outils comme Tableau, Qlikview, et PowerBI pour des visualisations percutantes.\n        \n      \n      \n         Langages de Programmation\n        \n          Python, R, C++, Scala, et Java pour le traitement et l’analyse de données.\n        \n      \n      \n         Environnement Big Data\n        \n          Expérience avec Hadoop, Hive, Spark, Kafka et Flink, en local ou dans le cloud.\n        \n      \n      \n         Systèmes d'Exploitation\n        \n          Maîtrise de Unix, Windows et leur intégration dans les processus d’analyse.\n        \n      \n    \n  \n\n  \n  \n    Savoir-Être et Soft-Skills\n    \n      \n         Travail en Équipe\n        \n          Collaboration efficace dans des équipes multidisciplinaires.\n        \n      \n      \n         Curiosité et Innovation\n        \n          Goût pour l'exploration de nouvelles technologies et leur mise en œuvre dans des solutions innovantes.\n        \n      \n      \n         Gestion du Temps\n        \n          Capacité à respecter les délais et à organiser efficacement le travail.\n        \n      \n      \n         Pédagogie et Communication\n        \n          Clarté dans l'explication des concepts techniques et pédagogie adaptée à divers publics.\n        \n      \n    \n  \n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Amal Rekik",
+    "section": "",
+    "text": "👋 Bonjour et Bienvenue dans mon univers  !\nTélécharger mon CV"
+  },
+  {
+    "objectID": "about/index.html#éducation",
+    "href": "about/index.html#éducation",
+    "title": "Amal Rekik",
+    "section": "🎓 Éducation",
+    "text": "🎓 Éducation\n\nMaster Statistiques appliquées et analyse décisionnelle (2022 – 2024) Université de Caen Normandie\nLicence 3 Mathématiques Informatique appliqués aux sciences humaines et sociales (2021 – 2022) Université de Caen Normandie\nLicence Mathématiques (2019 – 2021) Université de Caen Normandie\nLicence Mathématiques Fondamentales, spécialité Mathématiques et Applications (2016 – 2019) Université de Sfax En Tunisie"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contactez-moi 🖋️",
+    "section": "",
+    "text": "Contactez-moi 🖋️\n    \n      Vos retours sur ce portfolio et mes projets sont très importants pour moi. Ils m’aident à améliorer mes compétences et à mieux présenter mon travail. Je suis également ouverte à toute opportunité de collaboration ou d’échange proQ    fessionnel — n’hésitez pas à me contacter ❤.\n    \n  \n\n  \n    \n      Nom complet\n      \n\n      Adresse email\n      \n\n      Message\n      \n\n      Envoyer le message\n    \n  \n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "©  [Amal Rekik].\nLe contenu de ce site est protégé par une licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA).\nVous êtes libre de partager et adapter ce contenu à condition de me créditer correctement et d’indiquer les modifications que vous y apportez. Vous ne pouvez pas utiliser ce contenu à des fins commerciales sans mon accord préalable.\n\n   \n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projets/Boston Crime/index.html",
+    "href": "projets/Boston Crime/index.html",
+    "title": "🔍 Analyse de la Criminalité à Boston",
+    "section": "",
+    "text": "Auteur : Amal REKIK\n  En collaboration avec : Eunice LAMAH\n\n\n\n\n  Résumé du Projet\n  \n    Dans ce projet, nous avons utilisé des données sur les caractéristiques des logements de Boston pour explorer les facteurs influençant le taux de criminalité. À travers des méthodes statistiques telles que la régression multiple, nous avons examiné l'impact de plusieurs variables, telles que le pourcentage de terrains résidentiels, le statut socio-économique et le ratio élèves-enseignants, sur la criminalité.\n  \n\n\n\n\n  Principaux Objectifs\n  \n     Comprendre les relations entre les caractéristiques du logement et la criminalité.\n     Identifier les variables ayant le plus d'impact sur le taux de criminalité.\n     Tester l'ajustement du modèle en utilisant des métriques comme \\(R^2\\) et le test de Durbin-Watson.\n  \n\n\n\n\n  Méthodologie\n  \n    \n      Exploration des données : Analyse descriptive des variables pour mieux comprendre leurs distributions et corrélations.\n      Modélisation :\n        \n          Régression multiple avec des variables comme indus, lstat, rm, et ptratio.\n          Analyse des coefficients pour évaluer l'importance de chaque prédicteur.\n          Vérification des hypothèses du modèle (normalité des résidus, hétéroscédasticité, autocorrélation).\n        \n      \n      Optimisation : Ajustement du modèle en supprimant les points influents et les variables peu significatives.\n    \n  \n\n\n\n\n  Principaux Résultats\n  \n    \n      Variables influentes : indus (activité industrielle), lstat (statut socio-économique) et ptratio (ratio élèves-enseignants).\n      Ajustement initial : \\(R^2 = 0.29\\), amélioré à \\(R^2 = 0.36\\) après suppression des points influents.\n      Transformation logarithmique : Qualité du modèle améliorée à \\(R^2 = 0.64\\).\n    \n  \n\n\n\n\n  En savoir plus\n  \n    Pour une exploration détaillée des résultats, des tests statistiques et des graphiques, consultez le rapport complet :\n    \n      \n        📥 Consultez le rapport complet\n      \n    \n  \n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projets/Insertion pro/index.html",
+    "href": "projets/Insertion pro/index.html",
+    "title": "📊 Insertion Professionnelle",
+    "section": "",
+    "text": "Auteur : Amal Rekik\n  En collaboration avec : LAMAH, TANGUY, REMESHA \n\n\n\n\n  Introduction\n  \n    \n      Dans un monde en constante évolution, l’insertion professionnelle des diplômés de Master est un enjeu crucial pour les institutions éducatives et le marché du travail. Ce projet analyse les trajectoires professionnelles en se focalisant sur des indicateurs clés tels que les taux d’emploi et les salaires médians, tout en explorant les disparités genrées et interdisciplinaires.\n    \n  \n\n\n\n\n  Source des Données\n  \n    \n      Les données proviennent des enquêtes nationales menées entre 2011 et 2020, dans le cadre des lois LRU, ESR, et ORE. Ces données fournissent un aperçu détaillé des conditions d’emploi et salariales des diplômés de Master en France.\n    \n  \n\n\n\n\n  Méthodologie\n  \n    \n      Analyse Descriptive : Analyse des salaires médians et des disparités genrées.\n      ACP : Identification des principales composantes expliquant les variations.\n      Clustering : Segmentation des diplômés en groupes homogènes.\n      Régression : Validation statistique des relations entre les variables.\n    \n  \n\n\n\n\n  Objectifs du Projet\n  \n    \n      \n      Identifier les variables influençant l’employabilité.\n    \n    \n      \n      Évaluer l’impact des réformes éducatives.\n    \n  \n\n\n\n\n\n  Conclusion\n  \n    L’étude met en lumière :\n    \n      Des inégalités salariales persistantes : Les disparités de rémunération restent significatives malgré les avancées dans certains secteurs.\n      Un impact positif des réformes éducatives : Les réformes récentes dans le système éducatif ont favorisé une meilleure insertion professionnelle des diplômés.\n      L’importance d’une orientation stratégique : Un accompagnement ciblé et des choix stratégiques sont essentiels pour maximiser l’employabilité des jeunes diplômés.\n    \n  \n\n\n\n\n  En Savoir Plus\n  \n    Pour en apprendre davantage sur les données, la méthodologie et les résultats détaillés, consultez le rapport complet ci-dessous.\n    \n      \n        📥 Consultez le rapport complet\n      \n    \n  \n\n\n\n\n\n Back to top"
+  }
+]
