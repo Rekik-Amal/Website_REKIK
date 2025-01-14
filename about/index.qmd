@@ -30,7 +30,7 @@ resources:
 <div class="h1"><span class="wave-hand" aria-hidden="true">👋</span>&nbsp;Bonjour et Bienvenue dans mon univers&nbsp;<span class="crystal-icon" aria-hidden="true"><i class="fas fa-globe"></i></span> !</div>
 
 <div class="lead">
-  <p><strong>Data Engineer</strong>, passionnée par l'univers des données, je me distingue par une maîtrise de Python, SQL et R, des outils essentiels pour l'analyse, la visualisation et le traitement de données complexes. J'ai un intérêt particulier pour les approches innovantes et l'ingénierie logicielle, que je mets au service de solutions performantes et adaptées aux défis actuels.</p>
+  <p><strong>Data Analyst</strong>, passionnée par l'univers des données, je me distingue par une maîtrise de Python, SQL et R, des outils essentiels pour l'analyse, la visualisation et le traitement de données complexes. J'ai un intérêt particulier pour les approches innovantes et l'ingénierie logicielle, que je mets au service de solutions performantes et adaptées aux défis actuels.</p>
   
   <p>Quand je ne suis pas plongée dans des projets data ou à coder, je passe mon temps libre dans ma cuisine à explorer de nouvelles recettes pâtissières. Tester de nouvelles saveurs et repousser les limites de la créativité culinaire sont ma façon de m'évader.</p>
   
