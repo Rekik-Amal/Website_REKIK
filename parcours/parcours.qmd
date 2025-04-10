@@ -13,72 +13,119 @@ resources:
 
 ```{=html}
 <div class="timeline">
-  <!-- Expérience 1 -->
-  <div class="timeline-event bg_2">
-    <div class="timeline-point bg_2"></div> <!-- Point circulaire de la timeline -->
-    <div class="timeline-content">
-      <h3><i class="fas fa-briefcase"></i> Stagiaire Data Engineer / Data Analyst</h3>
-      <p><strong><i class="fas fa-building"></i> EDF</strong></p>
-      <p><i class="fas fa-calendar-alt"></i> 04/2024 -- 10/2024</p>
-      <p><i class="fas fa-map-marker-alt"></i> Tours, France</p>
-      
-      <!-- Contenu détaillé avec mots en doré -->
-      <p>Visualisation des Données : Maîtrise de <span class="highlight-gold">Plotly</span>, <span class="highlight-gold">Matplotlib</span>, et <span class="highlight-gold">Seaborn</span> pour transformer des données complexes en visualisations interactives, facilitant les prises de décision.</p>
 
-      <p>Gestion de Bases de Données : Expérience dans l’exploitation des <span class="highlight-gold">data warehouses</span> d'EDF pour des extractions et analyses rapides, optimisant l'accès aux insights clés.</p>
+<!-- Expérience EDF  -->
+<div class="timeline-event bg_2">
+  <div class="timeline-point bg_2"></div>
+  <div class="timeline-content">
+    <h3><i class="fas fa-briefcase"></i> Stagiaire Data Engineer / Data Analyst</h3>
+    <p><strong><i class="fas fa-building"></i> EDF</strong></p>
+    <p><i class="fas fa-calendar-alt"></i> Avril 2024 – Octobre 2024</p>
+    <p><i class="fas fa-map-marker-alt"></i> Tours, France</p>
 
-      <p>Applications pour l’Accès aux Données : Développement d'applications <span class="highlight-gold"><i class="fab fa-r-project"></i>Shiny</span> et <span class="highlight-gold">Streamlit</span> pour rendre les données accessibles aux non-techniciens, renforçant ainsi l’autonomie des équipes.</p>
+    <p>
+      Intégrée à une équipe d'ingénieurs, j’ai participé à la digitalisation des outils de suivi technique et à l’analyse de données stratégiques pour améliorer la fiabilité des systèmes critiques.
+    </p>
 
-      <p>Automatisation des Processus : Réduction du temps d'extraction des données de 21 à 4 minutes grâce à des automatisations en <span class="highlight-gold"><i class="fab fa-r-project"></i> </span>, permettant de libérer un temps précieux pour l’équipe.</p>
+    <ul>
+      <li>
+        Analyse avancée de séries temporelles pour détecter tendances et anomalies.<br>
+        <strong>→ A permis de stabiliser les capteurs critiques et d’identifier des points de changement, augmentant la fiabilité des systèmes de <span class="highlight-gold">+40 %</span>.</strong>
+      </li>
 
-      <p>Rapports Dynamiques : Création de rapports automatisés avec <span class="highlight-gold">RMarkdown</span>, générés en moins de 2 minutes et adaptés aux besoins spécifiques des utilisateurs.</p>
+      <li>
+        Développement d’applications internes avec <span class="highlight-gold">RShiny</span> et <span class="highlight-gold">Streamlit</span> pour rendre la documentation technique accessible.<br>
+        <strong>→ Réduction de <span class="highlight-gold">90 %</span> du temps de recherche d’information par les équipes.</strong>
+      </li>
 
-      <p>Code de Qualité Industrielle : Implémentation de <span class="highlight-gold">typage statique</span> (mypy), <span class="highlight-gold">linting</span> et <span class="highlight-gold">formatage</span> (ruff), et <span class="highlight-gold">tests unitaires</span> (pytest) pour assurer la robustesse et la lisibilité du code en production.</p>
-    </div>
-  </div>
+      <li>
+        Conception de visualisations interactives<br>
+        <strong>→ Les ingénieurs ont doublé leur vitesse d’analyse et enrichi les études techniques.</strong>
+      </li>
 
+      <li>
+        Mise en place de pipelines de traitement de données robustes.<br>
+        <strong>→ Réduction de <span class="highlight-gold">70 %</span> du temps de traitement manuel des données.</strong>
+      </li>
 
-  <!-- Expérience 2 -->
-  <div class="timeline-event bg_3">
-    <div class="timeline-point bg_3"></div> <!-- Point circulaire de la timeline -->
-    <div class="timeline-content">
-      <h3><i class="fas fa-briefcase"></i> Stagiaire Data Analyst</h3>
-      <p><strong><i class="fas fa-building"></i> Laboratoire Nicolas Oresme</strong></p>
-      <p><i class="fas fa-calendar-alt"></i> Avril 2023 – Juillet 2023</p>
-      <p><i class="fas fa-map-marker-alt"></i> Caen, France</p>
-      
-      <!-- Compétences Démontrées -->
-      <p><strong>Analyse des données alimentaires pour une classification statistique :</strong> Étude approfondie des nutriments dans diverses denrées pour déterminer des <span class="highlight-gold">groupes homogènes</span>.</p>
+      <li>
+        Production de rapports automatisés et dynamiques avec <span class="highlight-gold">RMarkdown</span>.<br>
+        <strong>→ Générés en moins de 2 minutes au lieu de 5 heures auparavant.</strong>
+      </li>
 
-      <p><strong>Calcul de l’indice de silhouette :</strong> Validation des regroupements réalisés à l’aide de cet indice pour garantir leur <span class="highlight-gold">robustesse</span> et leur <span class="highlight-gold">pertinence</span>.</p>
-
-      <p><strong>Représentation graphique des indices de silhouette :</strong> Création de visualisations détaillées pour analyser la <span class="highlight-gold">qualité des clusters</span> obtenus.</p>
-
-      <p><strong>Identification des aliments représentatifs (parangons) :</strong> Détermination des éléments les plus représentatifs de chaque <span class="highlight-gold">cluster</span> pour mieux comprendre leurs caractéristiques.</p>
-
-      <p><strong>Utilisation de SAS :</strong> Exploitation du logiciel <span class="highlight-gold">SAS</span> pour toutes les étapes du traitement et de l’analyse des données.</p>
-    </div>
-  </div>
-
-  <!-- Expérience 3 -->
-  <div class="timeline-event bg_4">
-    <div class="timeline-point bg_4"></div> <!-- Point circulaire de la timeline -->
-    <div class="timeline-content">
-      <h3><i class="fas fa-briefcase"></i> Stagiaire Data Analyst</h3>
-      <p><strong><i class="fas fa-building"></i> Banque Nationale Agricole</strong></p>
-      <p><i class="fas fa-calendar-alt"></i> 05/2019 -- 08/2019</p>
-      <p><i class="fas fa-map-marker-alt"></i> Tunis, Tunisie</p>
-      
-      <!-- Compétences Démontrées avec mots-clés en doré -->
-      <p><strong>Amélioration du Suivi des Performances Financières :</strong> Chargé de concevoir un système de suivi des performances pour la Banque Nationale Agricole à Tunis, permettant aux équipes de prendre des décisions <span class="highlight-gold">plus rapidement</span> et <span class="highlight-gold">efficacement</span>.</p>
-
-      <p><strong>Création de Tableaux de Bord Dynamiques avec Power BI :</strong> Conception de <span class="highlight-gold">tableaux de bord interactifs</span> dans <span class="highlight-gold">Power BI</span> pour centraliser les indicateurs clés de performance (<span class="highlight-gold">KPI</span>).</p>
-
-      <p><strong>Automatisation du Flux de Données avec Power Query :</strong> Utilisation de <span class="highlight-gold">Power Query</span> pour automatiser l'extraction, le nettoyage et la structuration des données.</p>
-
-      <p><strong>Suivi de la Satisfaction Client :</strong> Intégration d’indicateurs de <span class="highlight-gold">satisfaction client</span>, incluant le <span class="highlight-gold">score de satisfaction</span> et le <span class="highlight-gold">taux de réclamation</span>.</p>
-    </div>
+      <li>
+        Amélioration de la traçabilité des interventions techniques.<br>
+        <strong>→ Division par deux du temps nécessaire pour diagnostiquer un dysfonctionnement.</strong>
+      </li>
+    </ul>
   </div>
 </div>
+
+
+<!-- Expérience 2 -->
+<div class="timeline-event bg_3">
+  <div class="timeline-point bg_3"></div>
+  <div class="timeline-content">
+    <h3><i class="fas fa-briefcase"></i> Stagiaire Data Analyst</h3>
+    <p><strong><i class="fas fa-building"></i> Laboratoire Nicolas Oresme</strong></p>
+    <p><i class="fas fa-calendar-alt"></i> Avril 2023 – Juillet 2023</p>
+    <p><i class="fas fa-map-marker-alt"></i> Caen, France</p>
+
+    <p>
+      Participation à un projet de recherche portant sur la classification statistique d’aliments à partir de leur composition nutritionnelle, dans un cadre académique rigoureux.
+    </p>
+
+    <ul>
+      <li>
+        Création de graphiques explicatifs sous <span class="highlight-gold">SAS</span> pour illustrer les regroupements statistiques.<br>
+        <strong>→ Meilleure visualisation des groupes alimentaires identifiés, facilitant les analyses.</strong>
+      </li>
+
+      <li>
+        Analyse de l’<span class="highlight-gold">indice de silhouette</span> pour valider la qualité des clusters obtenus.<br>
+        <strong>→ Garantie de la pertinence et robustesse des classifications.</strong>
+      </li>
+
+      <li>
+        Préparation et simplification de données complexes pour l’équipe de recherche.<br>
+        <strong>→ Accélération de l’interprétation et des prises de décision scientifiques.</strong>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Expérience 3 -->
+<div class="timeline-event bg_4">
+  <div class="timeline-point bg_4"></div>
+  <div class="timeline-content">
+    <h3><i class="fas fa-briefcase"></i> Stagiaire Data Engineer / Data Analyst</h3>
+    <p><strong><i class="fas fa-building"></i> Banque Nationale Agricole</strong></p>
+    <p><i class="fas fa-calendar-alt"></i> Mai 2019 – Août 2019</p>
+    <p><i class="fas fa-map-marker-alt"></i> Tunis, Tunisie</p>
+
+    <p>
+      Immersion dans l’environnement financier de la banque pour améliorer les systèmes de reporting et structurer les données métier en lien avec les équipes métiers et techniques.
+    </p>
+
+    <ul>
+      <li>
+        Création de <span class="highlight-gold">tableaux de bord interactifs</span> sous Power BI pour le suivi d’indicateurs financiers.<br>
+        <strong>→ Réduction du temps de reporting de 3 jours à quelques heures.</strong>
+      </li>
+
+      <li>
+        Collaboration avec les métiers pour analyser les besoins décisionnels et ajuster les visualisations aux utilisateurs finaux.<br>
+        <strong>→ Amélioration de la lisibilité et de la pertinence des indicateurs suivis.</strong>
+      </li>
+
+      <li>
+        Contribution à la migration d’un ensemble de <span class="highlight-gold">tables, vues et procédures stockées</span> de SQL Server vers Snowflake dans le cadre de la refonte de l’infrastructure Data Warehouse.<br>
+        <strong>→ Meilleure scalabilité, performance accrue des requêtes et architecture modernisée.</strong>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+
 
 ```
