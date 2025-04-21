@@ -1,0 +1,131 @@
+---
+title: "Mon Parcours Professionnel"
+format:
+  html:
+    page-layout: full
+header-includes: >
+  <link rel="stylesheet" href="../assets/timeline.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+resources:
+  - assets/timeline.css
+
+---
+
+```{=html}
+<div class="timeline">
+
+<!-- Expérience EDF  -->
+<div class="timeline-event bg_2">
+  <div class="timeline-point bg_2"></div>
+  <div class="timeline-content">
+    <h3><i class="fas fa-briefcase"></i> Stagiaire Data Engineer / Data Analyst</h3>
+    <p><strong><i class="fas fa-building"></i> EDF</strong></p>
+    <p><i class="fas fa-calendar-alt"></i> Avril 2024 – Octobre 2024</p>
+    <p><i class="fas fa-map-marker-alt"></i> Tours, France</p>
+
+    <p>
+      Intégrée à une équipe d'ingénieurs, j’ai participé à la digitalisation des outils de suivi technique et à l’analyse de données stratégiques pour améliorer la fiabilité des systèmes critiques.
+    </p>
+
+    <ul>
+      <li>
+        Analyse avancée de séries temporelles pour détecter tendances et anomalies.<br>
+        <strong>→ A permis de stabiliser les capteurs critiques et d’identifier des points de changement, augmentant la fiabilité des systèmes de <span class="highlight-gold">+40 %</span>.</strong>
+      </li>
+
+      <li>
+        Développement d’applications internes avec <span class="highlight-gold"><i class="fab fa-r-project"></i>Shiny</span>et <span class="highlight-gold">Streamlit</span> pour rendre la documentation technique accessible.<br>
+        <strong>→ Réduction de <span class="highlight-gold">90 %</span> du temps de recherche d’information par les équipes.</strong>
+      </li>
+
+      <li>
+        Conception de visualisations interactives<br>
+        <strong>→ Les ingénieurs ont doublé leur vitesse d’analyse et enrichi les études techniques.</strong>
+      </li>
+
+      <li>
+        Mise en place de pipelines de traitement de données robustes.<br>
+        <strong>→ Réduction de <span class="highlight-gold">70 %</span> du temps de traitement manuel des données.</strong>
+      </li>
+
+      <li>
+        Production de rapports automatisés et dynamiques avec <span class="highlight-gold">RMarkdown</span>.<br>
+        <strong>→ Générés en moins de 2 minutes au lieu de 5 heures auparavant.</strong>
+      </li>
+
+      <li>
+        Amélioration de la traçabilité des interventions techniques.<br>
+        <strong>→ Division par deux du temps nécessaire pour diagnostiquer un dysfonctionnement.</strong>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- Expérience 2 -->
+<div class="timeline-event bg_3">
+  <div class="timeline-point bg_3"></div>
+  <div class="timeline-content">
+    <h3><i class="fas fa-briefcase"></i> Stagiaire Data Analyst</h3>
+    <p><strong><i class="fas fa-building"></i> Laboratoire Nicolas Oresme</strong></p>
+    <p><i class="fas fa-calendar-alt"></i> Avril 2023 – Juillet 2023</p>
+    <p><i class="fas fa-map-marker-alt"></i> Caen, France</p>
+
+    <p>
+      Participation à un projet de recherche portant sur la classification statistique d’aliments à partir de leur composition nutritionnelle, dans un cadre académique rigoureux.
+    </p>
+
+    <ul>
+      <li>
+        Création de graphiques explicatifs sous <span class="highlight-gold">SAS</span> pour illustrer les regroupements statistiques.<br>
+        <strong>→ Meilleure visualisation des groupes alimentaires identifiés, facilitant les analyses.</strong>
+      </li>
+
+      <li>
+        Analyse de l’<span class="highlight-gold">indice de silhouette</span> pour valider la qualité des clusters obtenus.<br>
+        <strong>→ Garantie de la pertinence et robustesse des classifications.</strong>
+      </li>
+
+      <li>
+        Préparation et simplification de données complexes pour l’équipe de recherche.<br>
+        <strong>→ Accélération de l’interprétation et des prises de décision scientifiques.</strong>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Expérience 3 -->
+<div class="timeline-event bg_4">
+  <div class="timeline-point bg_4"></div>
+  <div class="timeline-content">
+    <h3><i class="fas fa-briefcase"></i> Stagiaire Data Engineer / Data Analyst</h3>
+    <p><strong><i class="fas fa-building"></i> Banque Nationale Agricole</strong></p>
+    <p><i class="fas fa-calendar-alt"></i> Mai 2019 – Août 2019</p>
+    <p><i class="fas fa-map-marker-alt"></i> Tunis, Tunisie</p>
+
+    <p>
+      Immersion dans l’environnement financier de la banque pour améliorer les systèmes de reporting et structurer les données métier en lien avec les équipes métiers et techniques.
+    </p>
+
+    <ul>
+      <li>
+        Création de <span class="highlight-gold">tableaux de bord interactifs</span> sous Power BI pour le suivi d’indicateurs financiers.<br>
+        <strong>→ Réduction du temps de reporting de 3 jours à quelques heures.</strong>
+      </li>
+
+      <li>
+        Collaboration avec les métiers pour analyser les besoins décisionnels et ajuster les visualisations aux utilisateurs finaux.<br>
+        <strong>→ Amélioration de la lisibilité et de la pertinence des indicateurs suivis.</strong>
+      </li>
+
+      <li>
+        Contribution à la migration d’un ensemble de <span class="highlight-gold">tables, vues et procédures stockées</span> de SQL Server vers Snowflake dans le cadre de la refonte de l’infrastructure Data Warehouse.<br>
+        <strong>→ Meilleure scalabilité, performance accrue des requêtes et architecture modernisée.</strong>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+```

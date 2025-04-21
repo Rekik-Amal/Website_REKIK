@@ -1,0 +1,70 @@
+---
+title: ""
+about: 
+  template: solana
+  image-width: 12em
+  image-shape: round
+  id: hero-heading
+  links: []
+page-layout: full
+
+header-includes: >
+  <link rel="stylesheet" href="assets/index.css">
+
+    <!-- Lien CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+resources:
+  - assets/index.css
+---
+
+```{=html}
+<div class="site-hero mb-5" style="display: flex; justify-content: space-between; align-items: center;">
+  <!-- Section pour le texte à gauche -->
+  <div class="site-intro" style="flex: 1; margin-right: 20px;">
+    <h1 class="site-title text-primary mt-0 fw-lighter text-start">
+      Amal Rekik
+    </h1>
+
+    <!-- Les icônes des réseaux sociaux juste en dessous du nom -->
+    <div class="social-icon-links my-3" aria-hidden="true" style="text-align:left; margin-top: 10px;">
+      <a class="link-primary" href="https://github.com/Rekik-Amal" title="github" target="_blank" rel="noopener">
+        <i class="fab fa-github fa-lg fa-fw"></i>
+      </a>
+      <a class="link-primary" href="https://linkedin.com/in/amal-rekik-88a655252" title="linkedin" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin fa-lg fa-fw"></i>
+      </a>
+      <a class="link-primary" href="mailto:amal.rekik33@gmail.com" title="email" target="_blank" rel="noopener">
+        <i class="fas fa-envelope fa-lg fa-fw"></i>
+      </a>
+    </div>
+
+    <!-- Message d'accueil avec l'icône de plume qui "vole" -->
+    <p class="site-intro-text" style="font-size: 1.2em; color: var(--bs-body-color); margin-top: 20px;">
+      Merci d'être passé(e) ! <br>
+      N'hésitez pas à <a href="/contact.qmd" style="color: var(--bs-primary); text-decoration: none;">m'envoyer un message</a> !
+      <!-- Icône de plume stylisée avec animation -->
+      <i class="fas fa-feather flying-icon" style="color: var(--bs-primary); margin-left: 5px;"></i>
+    </p>
+
+    <!-- Lien "À propos de moi" avec une flèche -->
+    <a class="mt4 action text" href="/about" style="font-size: 1.2em; color: var(--bs-primary); text-decoration: none;">
+      À propos de moi →
+    </a>
+  </div>
+
+  <!-- Section pour le logo animé à droite -->
+  <div class="site-logo text-primary" style="flex: 1; display: flex; justify-content: flex-end; height: 100%; margin-left: 100px;">
+    <svg width="600px" height="400px" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" id="RA">
+      <!-- Tracé pour la lettre "R" -->
+      <path id="letter-R" d="M10,250 L10,10 L100,10 Q170,10 170,80 Q170,140 100,140 L10,140 L100,250"
+            stroke="#1e88e5" fill="transparent" stroke-width="8" />
+      <!-- Tracé pour la lettre "A" -->
+      <path id="letter-A" d="M230,250 L300,10 L370,250 M260,150 L340,150"
+            stroke="#1e88e5" fill="transparent" stroke-width="8" />
+    </svg>
+  </div>
+</div>
+
+
+```

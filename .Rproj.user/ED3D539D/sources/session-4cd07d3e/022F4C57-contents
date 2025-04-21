@@ -1,0 +1,34 @@
+---
+title: "Projects"
+description: |
+  All (or most, or at least some) of my projects.
+listing:
+  contents:
+    -  "**/*.qmd"   
+  sort: "date desc"
+  type: grid
+  categories: false
+  sort-ui: true
+  filter-ui: true
+  fields: [date, title, description, image]
+  feed: true
+  grid-columns: 2
+  image-height: 33vmin
+page-layout: full
+title-block-banner: false
+header-includes:
+  - <link rel="stylesheet" href="../projets/proj.css">
+---
+
+```{=html}
+
+<section class="coming-soon-section">
+  <div class="coming-soon-container">
+    <div class="coming-soon-panel">
+      <h2>🚧 Coming Soon!</h2>
+      <p>Stay tuned for an exciting new project. I'm working hard to bring you something amazing!</p>
+    </div>
+  </div>
+</section>
+
+```
