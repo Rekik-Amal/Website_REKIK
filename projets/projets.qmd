@@ -4,7 +4,7 @@ description: |
   All (or most, or at least some) of my projects.
 listing:
   contents:
-    -  "**/*.qmd"   # Parcourt les sous-dossiers pour inclure tous les projets
+    -  "**/*.qmd"   
   sort: "date desc"
   type: grid
   categories: false

@@ -1,9 +1,13 @@
 {
     "sortOrder": [
         {
+            "columnIndex": 4,
+            "ascending": false
+        },
+        {
             "columnIndex": 2,
             "ascending": true
         }
     ],
-    "path": "~/site_Amal/site_amal/assets"
+    "path": "~/site_Amal/site_amal/projets/SakilaQuery"
 }
